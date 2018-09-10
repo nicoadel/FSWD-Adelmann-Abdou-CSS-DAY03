@@ -31,16 +31,48 @@
     display: flex;
     justify-content: space-around;
 }
-#sidebar {
-	margin: 2em 2em;
+
+#image_container {
+    margin: 2em 2em;
 }
-#sidebar img {
-	width: 20em;
-	height: 30em;
-	transition: width 3s, height 3s, transform 3s;
+
+#image_container * {
+    width: 20em;
+    height: 20em;
+    transition: width 3s, height 3s, transform 3s;
 }
-#sidebar img:hover {
-  	width: 50em;
-  	height: 50em;
-	transform: rotate(360deg);
+
+#image_container img:hover {
+    width: 50em;
+    height: 50em;
+    transform: rotate(360deg);
+}
+
+#div2 {
+    background-color: red;
+    width: 20em;
+    height: 20em;
+}
+
+#div2:hover {
+    width: 50em;
+    height: 50em;
+    transform: rotate(180deg);
+}
+
+#div3 {
+    background-color: blue;
+    width: 20em;
+    height: 20em;
+}
+
+#div3:hover {
+    width: 50em;
+    height: 50em;
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+#image_container {
+    display: flex;
+    justify-content: space-around;
 }
