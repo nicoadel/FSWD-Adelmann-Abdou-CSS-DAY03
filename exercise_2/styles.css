@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    font-family: "Helvetica";
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#div_container {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    width: 30em;
+    height: 50em;
+}
+
+#nutrition_facts {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#hr_first {
+    height: 1em;
+    background-color: black;
+    margin: 0 1em;
+}
+
+#calories_header {
+    text-align: right;
+    font-weight: bold;
+}
+
+#table_first {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#table_first tr {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#table_first td {
+	width: 8em;
+    border: 2px solid black;
+}
+.boldtext {
+font-weight: bold;
+font-size: 1em;
+
+}
