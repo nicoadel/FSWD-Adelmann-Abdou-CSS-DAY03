@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    font-family: "Helvetica";
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#div_container {
+    padding: 1em;
+    margin: 3em 0;
+    display: flex;
+    flex-direction: column;
+    width: 42em;
+    height: auto;
+}
+
+#nutrition_facts {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#boldtext_ceral {
+    margin-left: 10em;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: end;
+}
+
+#milk {
+    font-weight: bold;
+    font-size: 1em;
+    text-align: end;
+}
+
+.hr_first {
+    height: 1em;
+    background-color: black;
+    margin: 0 0.1em;
+}
+
+#calories_header {
+    text-align: right;
+    font-weight: bold;
+}
+
+.table_first {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.table_first tr {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.table_first td {
+    width: 23em;
+}
+
+.boldtext {
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+#calories_from_fat {
+    margin-left: 1em;
+}
+
+.alignright {
+    display: flex;
+}
+
+.hr_class_first {
+    width: 42em;
+    height: 0.2em;
+    background-color: black;
+    margin-left: 0.2em;
+}
+
+.hr_class_second {
+    width: 40.2em;
+    height: 0.1em;
+    background-color: dimgrey;
+    margin-left: 2em;
+}
+
+#nutrients_daily_value {
+    font-weight: bold;
+    text-align: right;
+}
+
+#nutrients_daily_value p {
+    font-weight: bold;
+}
+
+#last_list {
+    padding-left: 10em;
+    justify-content: space-around;
+    width: 50%;
+    display: flex;
+}
+
+#last_listfirst {
+    list-style: none;
+}
+
+.textright {
+    text-align: end;
+}
+
+.text_second_right {
+    margin-left: 9em;
+    text-align: end;
+}
+
+.text_third_right {
+    margin-left: 10em;
+}
+
+.givein {
+    margin-left: 2em;
+}
+
+.bold_givein_text {
+    margin-left: 21em;
+}
