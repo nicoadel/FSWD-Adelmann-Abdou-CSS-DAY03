@@ -2,181 +2,262 @@
 <html>
 
 <head>
-	<link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Nutrition Facts</title>
 </head>
 
 <body>
     <div style="border: 2px solid black;" id="div_container">
-        <div id="header">
+        <div>
             <p id="nutrition_facts">Nutrition Facts</p>
             <p>Serving Size 1 cup (50g)</p>
             <p>Servings Per Container 10</p>
         </div>
-        <div id="calories">
-            <hr id="hr_first">
-            <p id="calories_header">with 1/2 <br> cup 1%</p>
-            <table id="table_first" >
- 				<tbody>
-                    <tr>
+        <div>
+            <hr class="hr_first">
+            <p id="calories_header">with 1/2
+                <br> cup 1%</p>
+            <table class="table_first">
+                <tbody>
+                    <tr class="class_col">
                         <td class="boldtext">Amount Per Serving</td>
-                        <td class="boldtext">Cereal</td>
-                        <td class="boldtext">milk</td>
+                        <td id="boldtext_ceral">Cereal</td>
+                        <td id="milk">milk</td>
                     </tr>
-                    <hr id="hr1.2">
                     <tr>
-                        <td class="boldtext">Calories</td>
-                        <td>190</td>
-                        <td>250</td>
-                    </tr>
-                    <hr id="hr1.2">
-                    <tr>
-                        <td>Calories from Fat</td>
-                        <td>35</td>
-                        <td>45</td>
-                    </tr>
+                        <td>
+                            <hr class="hr_class_first">
+                        </td>
+                        <tr>
+                            <td class="boldtext">Calories</td>
+                            <td class="text_second_right">190</td>
+                            <td class="textright">250</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <hr class="hr_class_second">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="givein">Calories from Fat</td>
+                            <span class="alignright">
+                                <td class="bold_givein_text">35</td>
+                                <td class="textright">45</td>
+                            </span>
+                        </tr>
+                        <tr>
+                            <td>
+                                <hr class="hr_class_first">
+                            </td>
+                        </tr>
                 </tbody>
             </table>
-            <hr id="hr_second">
         </div>
         <div id="nutrients">
+                <p id="nutrients_daily_value">% Daily Value**</p>
+            <hr class="hr_class_first">
             <div>
-                <p>% Daily Value**</p>
+                <table class="table_first">
+                    <tbody>
+                        <tr>
+                            <td><span class="boldtext">Total Fat</span> 4g*</td>
+                            <td class="text_second_right">6%</td>
+                            <td class="textright">8%</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <hr class="hr_class_second">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="givein">Saturated Fat 1.5g</td>
+                            <td class="bold_givein_text">8%</td>
+                            <td class="textright">13%</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <hr class="hr_class_second">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="givein">Trans Fat 0g</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <hr class="hr_class_first">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span class="boldtext">Cholesterol</span> 0mg</td>
+                            <td class="text_second_right">0%</td>
+                            <td class="textright">3%</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <hr class="hr_class_second">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> <span class="boldtext">Sodium</span> 190mg</td>
+                            <td class="text_second_right">8%</td>
+                            <td class="textright">11%</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <hr class="hr_class_first">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span class="boldtext">Total Carbohydrate</span> 39g</td>
+                            <td class="text_second_right">13%</td>
+                            <td class="textright">15%</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <hr class="hr_class_second">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="givein">Dietary Fiber 6g</td>
+                            <td class="bold_givein_text">24%</td>
+                            <td class="textright">24%</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <hr class="hr_class_second">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Sugars 11g</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <hr class="hr_class_first">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span class="boldtext">Protein</span> 4g</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-            <hr id="hr_third">
-            <table style="border: 2px solid black;">
-                <tbody>
-                    <tr>
-                        <td>Total Fat 4g*</td>
-                        <td>6%</td>
-                        <td>8%</td>
-                    </tr>
-                    <tr>
-                        <td>Saturated Fat 1.5g</td>
-                        <td>8%</td>
-                        <td>13%</td>
-                    </tr>
-                    <tr>
-                        <td>Trans Fat 0g</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Cholesterol 0mg</td>
-                        <td>0%</td>
-                        <td>3%</td>
-                    </tr>
-                    <tr>
-                        <td>Sodium 190mg</td>
-                        <td>8%</td>
-                        <td>11%</td>
-                    </tr>
-                    <tr>
-                        <td>Total Carbohydrate 39g</td>
-                        <td>13%</td>
-                        <td>15%</td>
-                    </tr>
-                    <tr>
-                        <td>Dietary Fiber 6g</td>
-                        <td>24%</td>
-                        <td>24%</td>
-                    </tr>
-                    <tr>
-                        <td>Sugars 11g</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Protein 4g</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                </tbody>
-            </table>
+            <hr class="hr_first">
         </div>
         <div id="vitamins">
             <hr id="hr_fourth">
-            <table style="border:2px solid black;">
+            <table class="table_first">
                 <tbody>
                     <tr>
                         <td>Vitamin A</td>
-                        <td>0%</td>
-                        <td>6%</td>
+                        <td class="text_second_right">0%</td>
+                        <td class="textright">6%</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr class="hr_class_first">
+                        </td>
                     </tr>
                     <tr>
                         <td>Vitamin C</td>
-                        <td>0%</td>
-                        <td>2%</td>
+                        <td class="text_second_right">0%</td>
+                        <td class="textright">2%</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr class="hr_class_first">
+                        </td>
                     </tr>
                     <tr>
                         <td>Calcium</td>
-                        <td>2%</td>
-                        <td>15%</td>
+                        <td class="text_second_right">2%</td>
+                        <td class="textright">15%</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr class="hr_class_first">
+                        </td>
                     </tr>
                     <tr>
                         <td>Iron</td>
-                        <td>6%</td>
-                        <td>6%</td>
+                        <td class="text_second_right">6%</td>
+                        <td class="textright">6%</td>
                     </tr>
                 </tbody>
             </table>
+            <hr class="hr_class_first">
         </div>
         <div id="footer">
             <hr id="hr_fifth">
             <p>*Amount in Cereal, with 1/2 cup 1% milk contributes an additional 60 Calories (10 Calories from Fat), 1 g Total Fat (1 g Saturated Fat), 10 mg Cholesterol, 70mg Sodium, 7 g Total Carbohydrate (6 g Sugars), 5 g Protein.
                 <br> **Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs:</p>
-            <table>
+                            <hr class="hr_class_first">
+            <table class="table_first">
                 <tbody>
                     <tr>
                         <td></td>
-                        <td>Calories:</td>
-                        <td>2000</td>
-                        <td>2500</td>
+                        <td class="text_third_right">Calories:</td>
+                        <td class="text_second_right">2000</td>
+                        <td class="textright">2500</td>
                     </tr>
                     <tr>
-                        <td>Total Fat:</td>
-                        <td>Less than</td>
-                        <td>65g</td>
-                        <td>80g</td>
+                    	<td>
+                    		<hr class="hr_class_first">
+                    	</td>
+                    </tr>
+                    	<td></td>
+                    	<td></td>
+                    	<td></td>
                     </tr>
                     <tr>
-                        <td>Saturated Fat</td>
-                        <td>Less than</td>
-                        <td>20g</td>
-                        <td>25g</td>
+                        <td class="smaller">Total Fat:</td>
+                        <td class="text_third_right">Less than</td>
+                        <td class="text_second_right">65g</td>
+                        <td class="textright">80g</td>
                     </tr>
                     <tr>
-                        <td>Cholesterol</td>
-                        <td>Less than</td>
-                        <td>300mg</td>
-                        <td>300mg</td>
+                        <td class="smaller">Saturated</td>
+                        <td class="text_third_right">Less than</td>
+                        <td class="text_second_right">20g</td>
+                        <td class="textright">25g</td>
                     </tr>
                     <tr>
-                        <td>Sodium</td>
-                        <td>Less than</td>
-                        <td>2,400mg</td>
-                        <td>2,400mg</td>
+                        <td class="smaller">Cholesterol</td>
+                        <td class="text_third_right">Less than</td>
+                        <td class="text_second_right">300mg</td>
+                        <td class="textright">300mg</td>
                     </tr>
                     <tr>
-                        <td>Total Carbohydrate</td>
-                        <td></td>
-                        <td>300g</td>
-                        <td>375g</td>
+                        <td class="smaller">Sodium</td>
+                        <td class="text_third_right">Less than</td>
+                        <td class="text_second_right">2,400mg</td>
+                        <td class="textright">2,400mg</td>
                     </tr>
                     <tr>
-                        <td>Dietary Fiber</td>
-                        <td></td>
-                        <td>25g</td>
-                        <td>30g</td>
+                        <td class="smaller">Total Carbohydrate</td>
+                        <td class="text_third_right"></td>
+                        <td class="text_second_right">300g</td>
+                        <td class="textright">375g</td>
+                    </tr>
+                    <tr>
+                        <td class="smaller">Dietary Fiber</td>
+                        <td class="text_third_right"></td>
+                        <td class="text_second_right">25g</td>
+                        <td class="textright">30g</td>
                     </tr>
                 </tbody>
             </table>
             <hr id="hr_sixth">
             <p>Calories per gram:</p>
-            <ul>
-            	<li>Fat 9</li>
-            	<li>Carbohydrate 4</li>
-            	<li>Protein 4</li>
+            <ul id="last_list">
+                <li id="last_listfirst">Fat 9</li>
+                <li>Carbohydrate 4</li>
+                <li>Protein 4</li>
             </ul>
         </div>
     </div>
